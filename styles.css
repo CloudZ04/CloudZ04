@@ -1,6 +1,12 @@
 
 @import url('https://fonts.cdnfonts.com/css/garet');
-@import url('https://fonts.cdnfonts.com/css/montserrat:100,200,300,400,500,600,700,800');
+@import url('https://fonts.cdnfonts.com/css/');
+@import 'bkb%20images%20and%20text/fonts/Montserrat-VariableFont_wght.woff2';
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/bkb%20images%20and%20text/fonts/Montserrat-VariableFont_wght.woff2') format('woff2');
+}
 
 body,
 ul {
@@ -16,6 +22,7 @@ h1, h2, nav ul li{
 
 p, li, h3 {
     font-family: 'Montserrat', sans-serif;
+    
     }
 
 body {
@@ -758,36 +765,21 @@ header h1 {
 }
 
 .pricebutton a {
-  margin-top: 2%;
-  width: 50%;
-  background-image: linear-gradient(to right, #E90308 50%, #333 50%);
-  background-size: 200% 100%;
-  background-position: right bottom;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  font-size: 1.2em;
-  height: 20%;
-  padding: 3%;
-  text-decoration: none;
-  color: #fff;
-  border-radius: 3px;
-  transition: background-position 0.3s ease-in-out;
-  overflow: hidden;
-  position: relative;
+  background-image: linear-gradient(to right, #E90308 0%, #E90308 0%);
 }
 
 .pricebutton a::before {
   content: "";
   position: absolute;
   top: 0;
-  left: -95%;
-  width: 100%;
-  height: 100%;
-  background-color: #E90308;
+  left: 0%;
+  width: 0%;
+  height: 0%;
+  background-color: #333;
 }
 
 .pricebutton a:hover {
-  background-position: left bottom;
+  background-position: none;
 }
 
 
